@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1e27afbe-ca82-4fcf-b8bf-79166198d918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{34d7b5bb-e4b2-4936-b710-27b04088d1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header">
+      <UniqueIdentifier>{d5ef7dec-46c5-49e0-9dbc-a4a2441faa53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source">
+      <UniqueIdentifier>{0c3d8264-58c7-430d-9e0b-0f34c52b218f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header\Containers">
+      <UniqueIdentifier>{6a4e35c2-4496-4e4d-af1f-1994785fd225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header\Math">
+      <UniqueIdentifier>{ce3e5710-4d3e-4348-a7c9-f7733e7d7d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header\Memory">
+      <UniqueIdentifier>{dfb46550-1c3c-4375-97be-673fbdd112c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header\Subsystem">
+      <UniqueIdentifier>{1039436d-6f8b-4247-a676-9d9879285cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header\Algorithm">
+      <UniqueIdentifier>{a7aec289-ad04-48bd-b0c1-19fa78eefc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source\Algorithm">
+      <UniqueIdentifier>{81b6081b-f1c1-4ea6-aead-2424fb73a7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source\Containers">
+      <UniqueIdentifier>{be285bc3-c2b3-4c8c-9126-abc7d854df05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source\Math">
+      <UniqueIdentifier>{a076004b-ed12-43ec-a267-48a43b6d5254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source\Subsystem">
+      <UniqueIdentifier>{5638241a-2958-4662-b43a-bd842158261f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source\String">
+      <UniqueIdentifier>{819afbc9-729b-4552-8376-7f5df0f7328b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Header\String">
+      <UniqueIdentifier>{28dc4a12-df15-4522-97cc-4ebb4187e47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{3df675b6-e8c3-4640-8b46-6cb1e8798c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Source\Memory">
+      <UniqueIdentifier>{0e482cb6-d9cd-404c-ac29-f48b0763879d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client\main.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Source\String\String.cpp">
+      <Filter>Engine\Core\Source\String</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Core\Header\Containers\Array.h">
+      <Filter>Engine\Core\Header\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Header\CorePCH.h">
+      <Filter>Engine\Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Header\CoreType.h">
+      <Filter>Engine\Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Header\String\String.h">
+      <Filter>Engine\Core\Header\String</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
